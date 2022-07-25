@@ -150,3 +150,63 @@ ul {
     transform: rotate(360deg);
   }
 }
+.hog-tile {
+  position: relative;
+}
+.hog-modal {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(53, 29, 33);
+
+}
+#filter {
+  margin: 50px 10px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2em;
+}
+
+#filter-greased {
+  margin: 0 40px;
+}
+#checkbox {
+  width: 30px;
+  height: 30px;
+}
+#hog-tiles {
+  display: flex;
+  justify-content: space-around;
+
+}
+.hog-tile {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  margin: 20px;
+  
+}
+
+.hog-tile > img {
+  width:350px;
+  position: absolute;
+  left:0;
+  object-fit: cover;
+
+  
+}
+.hog-tile > h1 {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  top: 20%;
+  z-index: 1;
+}
+
+.hide-hog {
+  position: absolute;
+  top:0;
+  right: 0;
+  z-index: 2;
+}
